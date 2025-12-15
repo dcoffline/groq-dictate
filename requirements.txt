@@ -1,0 +1,6 @@
+sounddevice
+numpy
+scipy
+groq
+evdev
+pyperclip
