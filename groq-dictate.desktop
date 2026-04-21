@@ -2,7 +2,7 @@
 Categories=Utility;
 Comment=Instant Groq Whisper — hold/release R-CTL
 # NOW: Just points to the wrapper script. No quotes to break!
-Exec=%h/.local/scripts/start-groq.sh
+Exec=%h/.local/bin/start-groq
 Icon=mic
 Name=Groq Turbo Dictation
 StartupNotify=false
