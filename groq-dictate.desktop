@@ -1,1 +1,11 @@
-/home/eric/.local/share/applications/groq-dictate.desktop
+[Desktop Entry]
+Categories=Utility;
+Comment=Instant Groq Whisper — hold/release R-CTL
+# NOW: Just points to the wrapper script. No quotes to break!
+Exec=%h/.local/scripts/start-groq.sh
+Icon=mic
+Name=Groq Turbo Dictation
+StartupNotify=false
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true
