@@ -31,8 +31,8 @@ export GROQ_API_KEY="gsk_your_actual_key_here"
 ## Step 2: Installation
 
 # 1. Clone the repository:
-git clone [https://github.com/YOUR_USERNAME/groq-linux-dictate.git](https://github.com/YOUR_USERNAME/groq-linux-dictate.git)
-cd groq-linux-dictate
+git clone [https://github.com/YOUR_USERNAME/groq-dictate.git](https://github.com/YOUR_USERNAME/groq-dictate.git)
+cd groq-dictate
 
 # 2. Create a Virtual Environment
 # It is best to run this in an isolated environment to avoid conflicts with system Python.

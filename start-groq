@@ -1,0 +1,20 @@
+#!/bin/bash
+source $HOME/.zshenv
+
+# Kill any old instances to prevent conflicts
+pkill -f groq-dictate.py
+
+# Set Audio Path
+export XDG_RUNTIME_DIR=/run/user/$(id -u)
+
+# Bridge for Homebrew Audio
+export ALSA_PLUGIN_DIR=/usr/lib64/alsa-lib
+
+# Display config
+export WAYLAND_DISPLAY=wayland-0
+
+# Log for debugging
+exec >$GROQDIR/groq_debug.log 2>&1
+
+# Run it
+$GROQDIR/.venv/bin/python $GROQDIR/groq-dictate.py
