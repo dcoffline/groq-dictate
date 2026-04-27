@@ -1,5 +1,8 @@
 Scanning for keyboard...
 ✔ Selected Best Keyboard: 'Telink Macally RFKeyboard' (Score: 10)
 ✔ Using System Default Microphone
-READY. Hold R-CTL on /dev/input/event10 to record.
+READY. Hold R-CTL on /dev/input/event11 to record.
+Recording... Stop. -> Transcribing...
+Recording... Stop. -> Transcribing...
+✔ COPIED (Wayland): Thank you.
 Recording... Stop.
