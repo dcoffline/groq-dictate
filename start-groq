@@ -1,8 +1,15 @@
 #!/bin/bash
-source $HOME/.zshenv
 
 # Kill any old instances to prevent conflicts
 pkill -f groq-dictate.py
+
+# Set Groq API Key
+set -a
+source $HOME/.secrets
+set +a
+
+# Set Groq Directory
+export GROQDIR=/var/home/eric/src/github.com/dcoffline/groq-dictate
 
 # Set Audio Path
 export XDG_RUNTIME_DIR=/run/user/$(id -u)
